@@ -7,7 +7,7 @@ stages {
 	stage('SCM') {
 		steps {
 			echo "Pull code from git step1"
-			echo "Pull code from git step1"
+			echo "Pull code from git step2"
 		}
 	}
 
