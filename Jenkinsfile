@@ -2,22 +2,22 @@ pipeline {
 
 agent any
 
-stages{
+stages {
 
-	stage 'SCM' {
+	stage('SCM') {
 		steps {
 			echo "Pull code from git"
 		}
 	}
 
-	stage 'Deploy' {
+	stage('Deploy') {
 		steps {
 			echo "Deploy the code"
 		}
 
 	}
 
-	stage 'Test' {
+	stage('Test') {
 		steps {
 			echo "Test the webapp"
 		}
